@@ -18,6 +18,7 @@
     "adbScreencap": "ADB截屏方法",
     "adbTouch": "ADB Touch方法",
     "appSettings": "应用设置",
+    "InterfaceSettings": "界面设置",
     "noParams": "这个任务没有参数",
     "times": "次数"
   },

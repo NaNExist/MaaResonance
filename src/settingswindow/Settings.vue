@@ -12,6 +12,10 @@ const settingSections = {
         component: defineAsyncComponent(() => import("./AppSettings.vue")),
         name: t("settings.appSettings"),
     },
+    Interface: {
+        component: defineAsyncComponent(() => import("./InterfaceSettings.vue")),
+        name: t("settings.InterfaceSettings"),
+    }
 };
 
 type SettingSections = keyof typeof settingSections;
